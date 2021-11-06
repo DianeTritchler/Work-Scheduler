@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead">Day, Month #</p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <div class="time-block" id="9am">9AM
+        <input class="none" type="text" name="9" id="nine" />
+        <button class="saveBtn" type="edit" id="nineBtn">X</button>
+      </div>
+      
+      
+        <div class="time-block" id="10am">10AM
+          <input class ="none" type="text" name="10" id="ten" />
+          <button class="saveBtn" type="edit" id="tenBtn">X</button>
+        </div>
+
+      <div class="time-block" id="11am">11AM
+        <input class ="none" type="text" name="11" id="eleven" />
+        <button class="saveBtn" type="edit" id="elevenBtn">X</button>
+      </div>
+      
+      <div class="time-block" id="12pm">12PM
+        <input class ="none" type="text" name="12" id="twelve" />
+        <button class="saveBtn" type="edit" id="twelveBtn">X</button>
+      </div>
+      
+      <div class="time-block" id="1pm">1PM
+        <input class ="none" type="text" name="1" id="one" />
+        <button class="saveBtn" type="edit" id="oneBtn">X</button>
+      </div>
+      
+      <div class="time-block" id="2pm">2PM
+        <input class ="none" type="text" name="2" id="two" />
+        <button class="saveBtn" type="edit" id="twoBtn">X</button>
+      </div>
+      
+      <div class="time-block" id="3pm">3PM
+        <input class ="none" type="text" name="3" id="three" />
+        <button class="saveBtn" type="edit" id="threeBtn">X</button>
+      </div>
+      
+      <div class="time-block" id="4pm">4PM
+        <input class ="none" type="text" name="4" id="four" />
+        <button class="saveBtn" type="edit" id="fourBtn">X</button>
+      </div>
+      
+      <div class="time-block" id="5pm">5PM
+        <input class ="none" type="text" name="5" id="five" />
+        <button class="saveBtn" type="edit" id="fiveBtn">X</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
